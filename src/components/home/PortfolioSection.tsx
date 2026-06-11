@@ -1,11 +1,30 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
+    {
+        title: "Design 11/23",
+        category: "Mobile App",
+        description: "Create designs for business, politics, and personal moments. Make reels and add your name, photo, and details directly on the design.",
+        tech: ["React Native", "Firebase", "Design Templates"],
+        link: "/products/design-11-23",
+        image: "/design-image.jpeg",
+        color: "orange"
+    },
+    {
+        title: "Master Mind Election Software",
+        category: "Election Software",
+        description: "Search voters instantly, run surveys, apply multi-filters by booth, caste, and area — then export everything to Excel and PDF.",
+        tech: ["React Native", "Node.js", "PostgreSQL"],
+        link: "/products/election-software",
+        image: "/election-software.jpeg",
+        color: "indigo"
+    },
     {
         title: "E-Commerce Platform",
         category: "Web Development",
@@ -82,15 +101,27 @@ export function PortfolioSection() {
                             className="group bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 flex flex-col"
                         >
                             <div className="relative aspect-video bg-slate-100 dark:bg-slate-800 overflow-hidden group">
-                                <div className={`absolute inset-0 bg-gradient-to-br from-${project.color}-500/10 to-${project.color}-500/5`} />
-
-                                <div className="absolute inset-0 flex items-center justify-center">
-                                    <span className={`text-${project.color}-500 font-bold text-lg opacity-50`}>{project.title}</span>
-                                </div>
+                                {project.image ? (
+                                    <Image
+                                        src={project.image}
+                                        alt={project.title}
+                                        fill
+                                        className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"
+                                    />
+                                ) : (
+                                    <>
+                                        <div className={`absolute inset-0 bg-gradient-to-br from-${project.color}-500/10 to-${project.color}-500/5`} />
+                                        <div className="absolute inset-0 flex items-center justify-center">
+                                            <span className={`text-${project.color}-500 font-bold text-lg opacity-50`}>{project.title}</span>
+                                        </div>
+                                    </>
+                                )}
 
                                 <div className="absolute inset-0 bg-slate-900/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4 z-20 backdrop-blur-sm">
-                                    <Button size="sm" className="gap-2 bg-white text-slate-900 hover:bg-white/90">
-                                        Live Demo <ArrowUpRight className="h-4 w-4" />
+                                    <Button size="sm" className="gap-2 bg-white text-slate-900 hover:bg-white/90" asChild>
+                                        <Link href={project.link}>
+                                            View Project <ArrowUpRight className="h-4 w-4" />
+                                        </Link>
                                     </Button>
                                 </div>
                             </div>
