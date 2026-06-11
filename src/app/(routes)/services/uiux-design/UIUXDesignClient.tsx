@@ -69,8 +69,8 @@ export function UIUXDesignClient() {
                                 Why Choose Our <span className="text-gradient">UI/UX Design</span> Services?
                             </h2>
                             <p className="text-lg text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
-                                Great design is more than just aesthetics—it's about creating experiences that solve problems
-                                and make users' lives easier. We combine research, psychology, and creativity to craft interfaces
+                                Great design is more than just aesthetics—it&apos;s about creating experiences that solve problems
+                                and make users&apos; lives easier. We combine research, psychology, and creativity to craft interfaces
                                 that are both beautiful and functional.
                             </p>
                             <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
@@ -184,7 +184,7 @@ export function UIUXDesignClient() {
                                 Ready to Design Something Beautiful?
                             </h2>
                             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-                                Let's create an experience your users will love
+                                Let&apos;s create an experience your users will love
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Button size="lg" className="bg-white text-orange-600 hover:bg-white/90 font-bold h-14 px-8 text-base" asChild>

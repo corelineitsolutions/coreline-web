@@ -70,7 +70,7 @@ export function APIDevelopmentClient() {
                             </h2>
                             <p className="text-lg text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
                                 We design and build APIs that are fast, secure, and easy to integrate. Whether you need
-                                a simple REST API or a complex microservices architecture, we've got you covered.
+                                a simple REST API or a complex microservices architecture, we&apos;ve got you covered.
                             </p>
                             <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
                                 Our APIs are built with scalability, performance, and security in mind, following
@@ -183,7 +183,7 @@ export function APIDevelopmentClient() {
                                 Need a Custom API?
                             </h2>
                             <p className="text-xl text-cyan-100 mb-8 max-w-2xl mx-auto">
-                                Let's build a powerful API that connects your systems seamlessly
+                                Let&apos;s build a powerful API that connects your systems seamlessly
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Button size="lg" className="bg-white text-cyan-600 hover:bg-white/90 font-bold h-14 px-8 text-base" asChild>

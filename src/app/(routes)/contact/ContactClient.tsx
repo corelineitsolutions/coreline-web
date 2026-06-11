@@ -92,7 +92,7 @@ export function ContactClient() {
                         </h1>
 
                         <p className="text-xl text-cyan-100 mb-12 max-w-3xl mx-auto leading-relaxed">
-                            Have a project in mind? We'd love to hear from you. Send us a message and we'll respond within 24 hours.
+                            Have a project in mind? We&apos;d love to hear from you. Send us a message and we&apos;ll respond within 24 hours.
                         </p>
                     </motion.div>
                 </div>
@@ -151,7 +151,7 @@ export function ContactClient() {
                                     </div>
                                     <div>
                                         <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Send us a Message</h2>
-                                        <p className="text-sm text-slate-600 dark:text-slate-400">We'll respond within 24 hours</p>
+                                        <p className="text-sm text-slate-600 dark:text-slate-400">We&apos;ll respond within 24 hours</p>
                                     </div>
                                 </div>
 

@@ -191,7 +191,7 @@ export function MobileAppDevelopmentClient() {
                                 Ready to Build Your Mobile App?
                             </h2>
                             <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-                                Let's create an amazing mobile experience for your users
+                                Let&apos;s create an amazing mobile experience for your users
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Button size="lg" className="bg-white text-purple-600 hover:bg-white/90 font-bold h-14 px-8 text-base" asChild>

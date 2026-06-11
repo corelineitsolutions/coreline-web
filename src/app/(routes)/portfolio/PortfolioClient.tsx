@@ -260,7 +260,7 @@ export function PortfolioClient() {
 
                         <div className="relative z-10">
                             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                                Let's Create Your Success Story
+                                Let&apos;s Create Your Success Story
                             </h2>
                             <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
                                 Ready to see your project featured in our portfolio?

@@ -225,7 +225,7 @@ export function AboutClient() {
 
                         <div className="relative z-10">
                             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                                Let's Build Something Amazing Together
+                                Let&apos;s Build Something Amazing Together
                             </h2>
                             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
                                 Ready to transform your ideas into reality? Our team is here to help.

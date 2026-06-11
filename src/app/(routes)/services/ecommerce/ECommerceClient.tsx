@@ -78,7 +78,7 @@ export function ECommerceClient() {
                                 shopping experience.
                             </p>
                             <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-                                Whether you're starting fresh with Shopify, need a custom Next.js solution, or want to enhance
+                                Whether you&apos;re starting fresh with Shopify, need a custom Next.js solution, or want to enhance
                                 your existing WooCommerce store, we have the expertise to help you succeed.
                             </p>
                         </motion.div>
@@ -188,7 +188,7 @@ export function ECommerceClient() {
                                 Ready to Launch Your Online Store?
                             </h2>
                             <p className="text-xl text-indigo-100 mb-8 max-w-2xl mx-auto">
-                                Let's build an e-commerce platform that grows your business
+                                Let&apos;s build an e-commerce platform that grows your business
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Button size="lg" className="bg-white text-indigo-600 hover:bg-white/90 font-bold h-14 px-8 text-base" asChild>

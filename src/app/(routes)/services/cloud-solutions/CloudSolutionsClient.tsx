@@ -183,7 +183,7 @@ export function CloudSolutionsClient() {
                                 Ready to Move to the Cloud?
                             </h2>
                             <p className="text-xl text-emerald-100 mb-8 max-w-2xl mx-auto">
-                                Let's discuss your infrastructure needs and design the perfect cloud solution
+                                Let&apos;s discuss your infrastructure needs and design the perfect cloud solution
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Button size="lg" className="bg-white text-emerald-600 hover:bg-white/90 font-bold h-14 px-8 text-base" asChild>

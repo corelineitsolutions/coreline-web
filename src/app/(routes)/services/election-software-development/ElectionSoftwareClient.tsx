@@ -78,7 +78,7 @@ export function ElectionSoftwareClient() {
                                 Why Choose Our <span className="text-gradient">Election Software</span>?
                             </h2>
                             <p className="text-lg text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
-                                As Maharashtra's leading election software company, we provide data-driven solutions that
+                                As Maharashtra&apos;s leading election software company, we provide data-driven solutions that
                                 empower political leaders with actionable insights. From precise voter analytics to
                                 real-time booth management, our tools are built for the Indian political landscape.
                             </p>
