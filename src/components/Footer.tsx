@@ -76,7 +76,7 @@ export function Footer() {
                     <Link href="/portfolio" className="hover:text-blue-400 transition-colors text-sm">Portfolio</Link>
                     <Link href="/contact" className="hover:text-blue-400 transition-colors text-sm">Contact</Link>
                     <Link href="#" className="hover:text-blue-400 transition-colors text-sm">Careers</Link>
-                    <Link href="#" className="hover:text-blue-400 transition-colors text-sm">Privacy Policy</Link>
+                    <Link href="/privacy-policy" className="hover:text-blue-400 transition-colors text-sm">Privacy Policy</Link>
                 </div>
 
                 {/* Contact */}
