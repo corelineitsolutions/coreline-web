@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { route: '/products', priority: 0.9, freq: 'weekly' },
         { route: '/products/design-11-23', priority: 0.8, freq: 'monthly' },
         { route: '/products/election-software', priority: 0.8, freq: 'monthly' },
+        { route: '/products/cricket-master-line-ai', priority: 0.8, freq: 'monthly' },
         { route: '/software-development-pune', priority: 0.9, freq: 'monthly' },
         { route: '/web-development-pune', priority: 0.9, freq: 'monthly' },
         { route: '/custom-software-development-pune', priority: 0.9, freq: 'monthly' },

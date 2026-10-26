@@ -67,6 +67,7 @@ export function Footer() {
                     <Link href="/products" className="hover:text-blue-400 transition-colors text-sm">All Products</Link>
                     <Link href="/products/design-11-23" className="hover:text-blue-400 transition-colors text-sm">Design 11-23</Link>
                     <Link href="/products/election-software" className="hover:text-blue-400 transition-colors text-sm font-semibold text-orange-400">Election Software</Link>
+                    <Link href="/products/cricket-master-line-ai" className="hover:text-blue-400 transition-colors text-sm font-semibold text-rose-400">Cricket Master Line AI</Link>
                 </div>
 
                 {/* Quick Links */}

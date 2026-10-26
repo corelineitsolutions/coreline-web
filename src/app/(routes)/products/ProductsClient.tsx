@@ -25,6 +25,15 @@ const products = [
         imageAlt: "Master Mind Election Software",
         href: "/products/election-software",
     },
+    {
+        title: "Cricket Master Line AI",
+        description: "AI-driven live cricket score application that delivers real-time match analysis, dynamic odds, ball-by-ball insights, and deep statistical breakdowns.",
+        features: ["AI Match Analysis", "Live Ball-by-Ball Score", "Win Probability & Odds", "Deep Player Statistics"],
+        gradient: "from-rose-600 via-red-500 to-amber-600",
+        image: "/cricket-master-line-ai.png",
+        imageAlt: "Cricket Master Line AI",
+        href: "/products/cricket-master-line-ai",
+    },
 ];
 
 export function ProductsClient() {
@@ -53,7 +62,7 @@ export function ProductsClient() {
                         </h1>
 
                         <p className="text-xl text-violet-100 mb-12 max-w-3xl mx-auto leading-relaxed">
-                            Design 11/23 for creatives and Master Mind Election Software for voter management — built for real-world use
+                            From creative design suites and voter management systems to AI-powered live cricket analytics — built for real-world performance
                         </p>
                     </motion.div>
                 </div>
@@ -62,7 +71,7 @@ export function ProductsClient() {
             {/* Products Grid */}
             <section className="py-20 md:py-12 bg-white dark:bg-slate-900">
                 <div className="container px-4 md:px-6 mx-auto">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {products.map((product, index) => (
                             <motion.div
                                 key={product.title}

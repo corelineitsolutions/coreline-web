@@ -26,6 +26,15 @@ const projects = [
         color: "indigo"
     },
     {
+        title: "Cricket Master Line AI",
+        category: "AI & Sports Analytics",
+        description: "AI-driven live cricket score application that delivers real-time match analysis, dynamic odds, ball-by-ball insights, and deep statistical breakdowns.",
+        tech: ["Next.js", "AI Analytics", "WebSockets", "Python"],
+        link: "/products/cricket-master-line-ai",
+        image: "/cricket-master-line-ai.png",
+        color: "rose"
+    },
+    {
         title: "E-Commerce Platform",
         category: "Web Development",
         description: "A full-featured e-commerce platform with payment gateway integration, admin dashboard, and real-time inventory.",
